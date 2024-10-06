@@ -5,14 +5,10 @@
 :root {
 	--primary-font: "Inter", sans-serif;
 	--secondary-font: "Macondo", cursive;
-	--primary-color: #3a2620;
-	/* dark brown */
-	--secondary-color: #aa9571;
-	/* light brown */
-	--highlight-color: #416a8e;
-	/* blue */
-	--highlight-color-light: #7a9fc2;
-	/* light blue */
+	--primary-color: #3a2620; /* dark brown */
+	--secondary-color: #aa9571; /* light brown */
+	--highlight-color: #416a8e; /* blue */
+	--highlight-color-light: #7a9fc2; /* light blue */
 }
 
 body {
@@ -37,3 +33,13 @@ h3 {
 	border: 2px solid white;
 	background-color: lightgray;
 } */
+
+/* Navbar */
+
+#navbar {
+	background-color: var(--primary-color);
+}
+
+#navbar .logo {
+	width: 30px;
+}
